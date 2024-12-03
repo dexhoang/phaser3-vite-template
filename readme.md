@@ -1,112 +1,20 @@
-# Phaser 3 + Vite.js Template
-> Make Phaser 3 games with modern frontend tooling.
+# Devlog Entry - [Nov 13, 2024]
+## Introducing the team 
 
-![License](https://img.shields.io/badge/license-MIT-green)
+Tools Lead - Dexter Hoang
 
-## Prerequisites
+Engine Lead - Alan Lu
 
-You'll need [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed.
+Design Leads - Grace Herman, Yingting Huang
 
-It is highly recommended to use [Node Version Manager](https://github.com/nvm-sh/nvm) (nvm) to install Node.js and npm.
+## Tools and Materials
+1. For our final project, we intend to use Phaser 3. This is because we have worked with Phaser 3 in CMPM120.
 
-For Windows users there is [Node Version Manager for Windows](https://github.com/coreybutler/nvm-windows).
+2. The programming languages our team chose was Typescript and JSON. This is because we have a lot of experience using Typescript from this class so we wouldn't have to learn an entirely new langauge. 
 
-Install Node.js and `npm` with `nvm`:
+3. We plan on using VSCode for writing our code because it is easy for us to collaborate and has tools to easily commit and push changes to our repository. If we have to create visual assets, we will use Pixilart or MagicaVoxel for 2d assets. We chose these tools since most of us have experience using these from a previous class. We are also the most comfortable using a more pixelated style of art for our visual assets. 
 
-```bash
-nvm install node
+4. For our alternate platform, we decided we will still stick with Phaser 3, but our primary lanaguge used will change from Typescript to Javascript. This is because of the many similarities between Typescript and Javascript which will help us greatly when changing our code. 
 
-nvm use node
-```
-
-Replace 'node' with 'latest' for `nvm-windows`.
-
-## Getting Started
-
-You can clone this repository or use [degit](https://github.com/Rich-Harris/degit) to scaffold the project like this:
-
-```bash
-npx degit https://github.com/ourcade/phaser3-vite-template my-folder-name
-cd my-folder-name
-
-npm install
-```
-
-Start development server:
-
-```
-npm run start
-```
-
-To create a production build:
-
-```
-npm run build
-```
-
-Production files will be placed in the `dist` folder. Then upload those files to a web server. 🎉
-
-## Project Structure
-
-```
-    .
-    ├── dist
-    ├── node_modules
-    ├── public
-    ├── src
-    │   ├── HelloWorldScene.js
-    │   ├── main.js
-	├── index.html
-    ├── package.json
-```
-
-JavaScript files are intended for the `src` folder. `main.js` is the entry point referenced by `index.html`.
-
-Other than that there is no opinion on how you should structure your project.
-
-There is an example `HelloWorldScene.js` file that can be placed inside a `scenes` folder to organize by type or elsewhere to organize by function. For example, you can keep all files specific to the HelloWorld scene in a `hello-world` folder.
-
-It is all up to you!
-
-## Static Assets
-
-Any static assets like images or audio files should be placed in the `public` folder. It'll then be served from the root. For example: http://localhost:8000/images/my-image.png
-
-Example `public` structure:
-
-```
-    public
-    ├── images
-    │   ├── my-image.png
-    ├── music
-    │   ├── ...
-    ├── sfx
-    │   ├── ...
-```
-
-They can then be loaded by Phaser with `this.image.load('my-image', 'images/my-image.png')`.
-
-# ESLint
-
-This template uses a basic `eslint` set up for code linting to help you find and fix common problems in your JavaScript code.
-
-It does not aim to be opinionated.
-
-[See here for rules to turn on or off](https://eslint.org/docs/rules/).
-
-## Dev Server Port
-
-You can change the dev server's port number by modifying the `vite.config.js` file. Look for the `server` section:
-
-```js
-{
-	// ...
-	server: { host: '0.0.0.0', port: 8000 },
-}
-```
-
-Change 8000 to whatever you want.
-
-## License
-
-[MIT License](https://github.com/ourcade/phaser3-vite-template/blob/master/LICENSE)
+## Outlook 
+Our team hopes to complete this final project in a timely manner without having to rush before the due date. The hardest part of this project would be if we have to make a switch to a different platform/engine. This will not only impact our time, but will require us to transfer our work to an entirely new engine with may differ from our original platform. We are hoping to learn more about our platform and feel more comfortable using it for the future. 
