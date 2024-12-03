@@ -1,5 +1,6 @@
 {
 	"name": "phaser3-vite-template",
+	"homepage": "https://dexhoang.github.io/phaser3-vite-template/",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
